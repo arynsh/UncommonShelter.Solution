@@ -18,9 +18,7 @@ This program for this uncommon animal shelter implements an API that has full CR
 | :-------------     | :------------ | :------------- |
 | **Postman** | User accesses:http://localhost:5000/api/animals| User view: List of all animals |
 | **User gets animal by id| get : http://localhost:5000/api/animals/1 | {"animalId":1,"name":"Molly","species":"Donkey","age":8,"gender":"Female"} |
-| **User creates new animal | Post: http://localhost:5000/api/animals {"name":"Molly","species":
-"Donkey","age":8,"gender":"Female"}  
-|  Animal is now in database |
+| **User creates new animal | Post: http://localhost:5000/api/animals {"name":"Molly","species": "Donkey","age":8,"gender":"Female"} |  Animal is now in database |
 | **User deletes animal from database | Delete: http://localhost:5000/api/animals/1 | Animal with animalid 1 is now deleted |
 
 ### Instructions
