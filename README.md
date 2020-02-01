@@ -18,8 +18,10 @@ This program for this uncommon animal shelter implements an API that has full CR
 | :-------------     | :------------ | :------------- |
 | **Postman** | User accesses:http://localhost:5000/api/animals| User view: List of all animals |
 | **User gets animal by id| get : http://localhost:5000/api/animals/1 | {"animalId":1,"name":"Molly","species":"Donkey","age":8,"gender":"Female"} |
-| **User creates new animal | Post: http://localhost:5000/api/animals {"name":"Molly","species":"Donkey","age":8,"gender":"Female"}  |  Animal is now in database |
-| **User deletes animal from database | Delete: http://localhost:5000/api/animals/1 | Animal with animalId 1 is now deleted |
+| **User creates new animal | Post: http://localhost:5000/api/animals {"name":"Molly","species":
+"Donkey","age":8,"gender":"Female"}  
+|  Animal is now in database |
+| **User deletes animal from database | Delete: http://localhost:5000/api/animals/1 | Animal with animalid 1 is now deleted |
 
 ### Instructions
 
@@ -27,7 +29,13 @@ This program for this uncommon animal shelter implements an API that has full CR
 ```
 $ git clone https://github.com/arynsh/UncommonAnimalShelter.Solution
 ```
-2. Open the command line--and navigate into the repository, then navigate into the UncommonShelter folder.
+2. Navigate into the repository, then navigate into the UncommonShelter folder.
+```
+$ cd UncommonAnimalShelter.Soluion
+```
+```
+$ cd UncommonAnimalShelter
+```
 3. In the command line, type in "dotnet restore" then "dotnet run".
 ```
 $ dotnet restore
@@ -62,8 +70,8 @@ $ dotnet run
 * [Visual Studio](https://www.visualstudiocommunity.com)
 * [GitHub](https://www.github.com)
 * HTML
-*[Postman](https://www.getpostman.com/)
-*[Swagger/OpenAPI](https://swagger.io/solutions/api-design/)
+* [Postman](https://www.getpostman.com/)
+* [Swagger/OpenAPI](https://swagger.io/solutions/api-design/)
  
 ### Support and Contact details
 | Author | GitHub | Email |
