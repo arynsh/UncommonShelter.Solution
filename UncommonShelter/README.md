@@ -38,10 +38,14 @@ $ dotnet run
 4. On your browser, open http://localhost:5000/swagger/index.html OR open Postman app and go to localhost:5000/api/animals/ OR go to https://app.swaggerhub.com/apis/arynsh/shelterAPIswagger/v1
 5. To access an individual animal, add animal's ID to the end of localhost:5000/api/animals/
 (example: localhost:5000/api/animals/1)
-6. To search for an animal by query string, here are the endpoints: name, age, species, gender.
+6. To search for an animal by query string through Postman, here are the endpoints: name, age, species, gender.
 (localhost:5000/api/animals/?age=5)
 7. To delete or update an animal through Postman, add their ID to the end of localhost:5000/api/animals/ and choose "Delete" instead of "Get".
 (example: localhost:5000/api/animals/5)
+8. To get an animal though name, age , or species through Swagger's documentation at http://localhost:5000/swagger/index.html, click the first "Get". Click "Try it out", then enter a query, and hit "execute".
+9. To post an animal through Swagger's documentation at http://localhost:5000/swagger/index.html,click "Post" and "Try it out". Enter fields such as name, age, gender, species, and id. Click execute".
+10. To edit an animal, click "Put" and "Try it out". Choose the animal by their animalId and change the field you'd like to modify. Click "execute".
+11. To get or delete an individual animal, click "Get" (third down) or "Delete". Choose animal that you wish to edit or delete by id.
 
 
 ## Known Bugs
