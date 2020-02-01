@@ -11,7 +11,7 @@
 - [License](#-license)
 
 ## Description
-This program for this uncommon animal shelter implements an API that has full CRUD functionality (CREATE, READ, UPDATE, DESTROY) and returns responses to API calls. Users are able to search the database by query strings such as name, age, species, and gender. This program includes Swagger for easier documentation.
+This program for this uncommon animal shelter implements an API that has full CRUD functionality (CREATE, READ, UPDATE, DESTROY) and returns responses to API calls. Users are able to search the database by query strings such as name, age, species, and gender. This program includes Swagger for easier documentation. 
 
 ### Specifications
 | Spec | Input | Output |
@@ -24,8 +24,17 @@ This program for this uncommon animal shelter implements an API that has full CR
 ### Instructions
 
 1. Clone this repository: https://github.com/arynsh/UncommonAnimalShelter.Solution
+```
+$ git clone https://github.com/arynsh/UncommonAnimalShelter.Solution
+```
 2. Open the command line--and navigate into the repository, then navigate into the UncommonShelter folder.
 3. In the command line, type in "dotnet restore" then "dotnet run".
+```
+$ dotnet restore
+```
+```
+$ dotnet run
+```
 4. On your browser, open http://localhost:5000/swagger/index.html OR open Postman app and go to localhost:5000/api/animals/ OR go to https://app.swaggerhub.com/apis/arynsh/shelterAPIswagger/v1
 5. To access an individual animal, add animal's ID to the end of localhost:5000/api/animals/
 (example: localhost:5000/api/animals/1)
@@ -44,12 +53,13 @@ This program for this uncommon animal shelter implements an API that has full CR
 * [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 * [ASP.Net](https://dotnet.microsoft.com/apps/aspnet)
 * [MySQLWorkbench](https://www.mysql.com/)
-* [Identity (https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-3.1&tabs=visual-studio)]
 * [Entity Framework Core](https://docs.microsoft.com/en-us/ef/#pivot=entityfmwk)
 * Microsoft.NET.Sdk.Web
 * [Visual Studio](https://www.visualstudiocommunity.com)
 * [GitHub](https://www.github.com)
 * HTML
+*[Postman](https://www.getpostman.com/)
+*[Swagger/OpenAPI](https://swagger.io/solutions/api-design/)
  
 ### Support and Contact details
 | Author | GitHub | Email |
